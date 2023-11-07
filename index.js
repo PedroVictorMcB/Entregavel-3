@@ -14,9 +14,6 @@ const minus = function(a, b) {
 }
 
 const divide = function(a, b) {
-    if (b == 0) {
-        console.log("Cannot operate, b is equal to 0");
-    }
     return a / b;
 }
 
