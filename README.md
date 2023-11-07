@@ -5,11 +5,11 @@ Nesta atividade aprendemos como usar os métodos GET e POST, e como testá-los n
 
 ##### Testes do Postman
 
-1. GET
-(/src/oi-mundo.png)
+1. GET  
+![](/src/oi-mundo.png)
 
-2. POST
-(/src/soma.png)
-(/src/subtracao.png)
-(/src/divisao.png)
-(/src/multiplicacao.png)
+2. POST  
+![](/src/soma.png)  
+![](/src/subtracao.png)  
+![](/src/divisao.png)  
+![](/src/multiplicacao.png)  
