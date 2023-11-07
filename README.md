@@ -11,8 +11,11 @@ Nesta atividade aprendemos como usar os métodos GET e POST, e como testá-los n
 2. POST  
 ![](/src/soma.png)  
   
+3. POST  
 ![](/src/subtracao.png)  
   
+4. POST  
 ![](/src/divisao.png)  
   
+5. POST  
 ![](/src/multiplicacao.png)  
