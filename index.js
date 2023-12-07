@@ -46,11 +46,15 @@ app.post("/subtracao", function(req, res) {
 
 app.post("/divisao", function(req, res) { 
     const body = req.body;
-    const result = divide(body.a, body.b);
+    let resultado = divide(body.a, body.b);
     
     const num1 = req.body.a; 
     const num2 = req.body.b;   
-    res.send(`O resultado da divisão de ${body.a} / ${body.b} é ${result}`); 
+    
+    if (num2 == 0) {
+        res.send("Impossivel efetuar a operacao");
+    }
+    res.send(`O resultado da divisão de ${body.a} / ${body.b} é ${resultado}`); 
 });
 
 app.post("/multiplicacao", function(req, res) { 
